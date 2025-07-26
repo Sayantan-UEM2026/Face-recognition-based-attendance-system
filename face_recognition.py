@@ -74,7 +74,7 @@ class Face_Recognition:
                 confidence = int((100 * (1 - predict / 300)))
 
                 conn = mysql.connector.connect(
-                    host="localhost", username="root", password="India@sayantan04", database="face_recognize"
+                    host="localhost", username="....", password="...............", database=".........."
                 )
                 my_cursor = conn.cursor()
                 my_cursor.execute("SELECT Student_id, Name, Roll, Dep FROM student WHERE Student_id=%s", (str(id),))
