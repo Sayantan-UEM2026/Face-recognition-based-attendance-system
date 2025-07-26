@@ -392,7 +392,7 @@ class Student:
         else:
             #messagebox.showinfo("Sucessfull","Welcome")
             try:
-                conn=mysql.connector.connect(host="localhost",username="root",password="India@sayantan04",database="face_recognize")
+                conn=mysql.connector.connect(host="......",username="....",password="........",database=".......")
                 my_cursor=conn.cursor()
                 my_cursor.execute("insert into student values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)",(
                                                                                                                     self.var_dep.get(),
